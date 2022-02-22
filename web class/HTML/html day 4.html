@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>HTML CLASS DAY 4 |MARQUEE| FORMS </title>
+</head>
+<body>
+
+<h2>MARQUEE</h2>
+<marquee> Life is beautiful. Pretty amazing and interesting it is. </marquee>
+
+<h2>MARQUEE BEHAVIOR (scroll/slide/alternate)</h2>
+<marquee behavior="slide"> This a marquee with the bahavior defined as slide. </marquee>
+<marquee behavior="alternate"> This is a marquee with the bahavior defined as alternate. </marquee>
+
+<h2>MARQUEE BEHAVIOR (left /right/up/down)</h2>
+
+<marquee direction="right"> This is a marquee with the direction defined as right. </marquee>
+
+<h2> MARQUEE SPEED (scrollamount/defaultvalue 6) </h2>
+<marquee scrollamount= "10"> This is a marquee with the speed defined. </marquee>
+
+<h2> MARQUEE WIDTH </h2>
+<marquee direction= "right"= "48%"> This is a marquee with 48% direction right>. </marquee>
+
+<h2>MARQUEE WITH HOUSE HOVER EFFECT</h2>
+<marquee scrollamount="10" onmouseover="stop()" onmouse="start()"> This is a marquee with speed and events on mouse action defined. </marquee>
+
+<h1>HTML FORMS </h1>
+<h3> <u> <i> contact us </i> </u></h3>
+<form action="mailto" kafledikshya16@gmail.com> 
+
+<p>
+	<input type="text" name="username" placeholder="Your Name"required="required">
+</p>
+
+<p>
+	<input type="email" name="Email" placeholder="Your email"required="required">
+</p>
+
+<p>
+	<input type="text" name="Phone Number" placeholder="Your Phone" required> 
+</p>
+
+<p>
+	<textarea name ="Message" placeholder="Your Message" rows="10" cols="51"required="required"> </textarea>
+</p>
+<p>
+	<input type="submit" name="" value="send">
+</p>
+</form>
+
+<form>
+<p>
+	Date of Birt:
+    <input type= "date" name="date">
+ 
+
+<p>
+	Nationality:
+    <select name="nationality">
+    <option>Nepal </option>
+    <option>India </option>
+    <option>Others </option>
+    </select>
+ </p>
+ 
+ <p>
+    Add File:
+	<input type ="file" name="file" multiple>
+</p>
+
+ <p>
+    Gender:
+	<input type="radio" name="gender" value="male" id="male" checked> <label for="male"> male </label>
+    <input type="radio" name="gender" value="female" id ="female"> <label for="female"> female </label>
+</p>
+
+<p>
+    Language:
+	<input type="checkbox" name="language" value="nepali" id= "nepali" checked="checked"> Nepali
+    <input type="checkbox" name="language" value="english" id= "english"> English
+    <input type="checkbox" name="language" value="others" id= "others"> Others
+</p>
+
+<p>
+	<input type="checkbox" name="agree" value="nepali" id "nepali" checked="checked">
+    <label for="agree"> I hearby declare.......regarding this website. </label>
+</p>
+
+<p>
+	<button type= "submit"> send </button>
+    <button type= "reset"> Cancel </button> 
+</p>
+</form>
+</body>
+</html>
